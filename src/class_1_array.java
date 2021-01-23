@@ -42,6 +42,21 @@ public class class_1_array {
         }
         System.out.println("max = " + max);
     }
+                              /*  public class text {
+                                    public static void main(String[] args) {
+                                        int[] a;
+                                        a = new int[]{1, 2, 3};
+                                        ch(a);
+                                        for(int i = 0;i< a.length;i++){
+                                            System.out.println(a[i]);
+                                        }
+                                    }
+                                    public static void ch(int[] b){
+                                        b = new int[]{0,0,0,0};
+                                    }
+                                    /*******************b数组新开辟了一组空间，此时a的数组发生改变，生存周期只在这个方法内，方法结束，a数组恢复原样**************************
+
+                                }*/
 
     }
 
