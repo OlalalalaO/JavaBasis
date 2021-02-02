@@ -15,9 +15,9 @@ public class throwable {
             int[] arr = {1,2,3};
             System.out.println(arr[3]); //new ArrayIndexOutOfBoundsException()
         }catch (ArrayIndexOutOfBoundsException e){
-            e.printStackTrace();//将错误输出在控制台
+            e.printStackTrace();//将错误输出在控制台，最全的
             System.out.println(e.getMessage()); //输出异常原因
-            System.out.println(e.toString()); //
+            System.out.println(e.toString()); //将e.printStackTrace();转化为字符串输出
         }
     }
 }
