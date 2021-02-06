@@ -1,5 +1,7 @@
 package _20210204_泛型类;
 
+import java.util.HashMap;
+
 public class Student {
    private String name;
 
