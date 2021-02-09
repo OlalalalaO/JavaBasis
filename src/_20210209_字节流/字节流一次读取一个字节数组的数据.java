@@ -12,7 +12,7 @@ public class 字节流一次读取一个字节数组的数据 {
         for (byte by : bys) {
             System.out.println((char) by);
         }
-        int len = fis.read(bys);  //读取bys数组长度的数据，存入bys中
+        int len = fis.read(bys);  //读取bys数组长度的数据，存入bys中,返回的是读取的长度
 
         System.out.println(len);
         System.out.println(new String((bys))); //将字节数组转换为字符串
