@@ -2,7 +2,7 @@ package _20210217_多线程;
 /*
 thread 一个线程类
  */
-public class 多线程的实现方式 extends Thread{
+public class 多线程的实现方式一 extends Thread{
 
 
     public static void main(String[] args) {
