@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-
+//接受数据
 public class ServerDemo1 {
     public static void main(String[] args) throws IOException {
         ServerSocket ss = new ServerSocket(10086);

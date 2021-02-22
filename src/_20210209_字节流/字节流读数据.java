@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class 字节流读数据 {
     public static void main(String[] args) throws IOException {
-        FileInputStream fis = new FileInputStream("res//fos.txt");
+        FileInputStream fis = new FileInputStream("res//fos.txt"); //可以直接输入文件名
 
         /*//第一次读取数据
         int byt = fis.read(); //读取一个字节的数据

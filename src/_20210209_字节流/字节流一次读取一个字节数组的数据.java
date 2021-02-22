@@ -10,14 +10,14 @@ public class 字节流一次读取一个字节数组的数据 {
         FileInputStream fis = new FileInputStream("res\\fos.txt");
         byte[] bys = new byte[10];
         for (byte by : bys) {
-            System.out.println((char) by);
+            System.out.println((char) by);  //此时是空值
         }
-        int len = fis.read(bys);  //读取bys数组长度的数据，存入bys中,返回的是读取的长度
+        int len = fis.read(bys);  //读取bys数组长度的数据，存入bys中,返回的是读取的长度，读入文件内容
 
-        System.out.println(len);
+        System.out.println(len);  //此时为空
         System.out.println(new String((bys))); //将字节数组转换为字符串
-
-        len = fis.read(bys);
+        System.out.println("------");
+        len = fis.read(bys);  //存入bys中
 
         System.out.println(len);
         System.out.println(new String((bys)));
