@@ -3,7 +3,7 @@ package _20210114_string;
 import java.util.Scanner;
 
 public class _20210114_string_statistics {
-    //统计各个字符个数——大写，小写，数字
+    //统计各个字符个数——大写，小写,数字
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
