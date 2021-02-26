@@ -1,6 +1,6 @@
 public class class_1_array {
     public static void main(String[] args) {
-//        psvm+回车生成main函数
+//        demo+回车生成main函数
 //        sout+回城生成输出函数
         /*数组：一次性存储大量同类型的数据*/
         /*定义数组*/
