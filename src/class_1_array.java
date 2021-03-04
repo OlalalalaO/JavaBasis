@@ -42,6 +42,7 @@ public class class_1_array {
         }
         System.out.println("max = " + max);
     }
+
                               /*  public class text {
                                     public static void main(String[] args) {
                                         int[] a;

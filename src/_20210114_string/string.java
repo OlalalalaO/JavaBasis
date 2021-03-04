@@ -20,5 +20,21 @@ public class string {
         //直接赋值
         String s4 = "abc";
         System.out.println("s4 = "+s4);
+
+        //分隔字符串
+        String all = String.join("/","a","f","f");
+        System.out.println(all);
+
+        //重复字符串
+        String a = "sdsa".repeat(3);
+        System.out.println(a);
+
+        //检测字符串是否相等，不区分大小写
+        System.out.println("AAA".equalsIgnoreCase("aaa"));
+
+
+        data:{
+
+        }
     }
 }

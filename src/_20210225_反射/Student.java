@@ -52,6 +52,7 @@ public class Student {
     private void fun(){
         System.out.println("私有方法被调用");
     }
+
     public void method1(){
         System.out.println("此方法被调用");
     }
